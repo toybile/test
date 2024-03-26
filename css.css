@@ -1,0 +1,10 @@
+.quadrado{
+  background-color: red;
+  padding: 20px;
+  animation-name: opa;
+}
+@key-frame opa{
+  0% {background-color: red}
+  50% {background-color: green}
+  100% {background-color: red}
+}
