@@ -2,9 +2,12 @@
   background-color: red;
   padding: 20px;
   animation-name: opa;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
-@key-frame opa{
+@keyframes opa{
   0% {background-color: red}
-  50% {background-color: green}
-  100% {background-color: red}
+  25% {background-color: green}
+  50% {background-color: red}
+  75% {background-color:blueviolet;}
 }
