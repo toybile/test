@@ -1,13 +1,13 @@
 .quadrado{
   background-color: red;
-  padding: 20px;
+  padding: 200px;
   animation-name: opa;
-  animation-duration: 4s;
+  animation-duration: 11s;
   animation-iteration-count: infinite;
 }
 @keyframes opa{
   0% {background-color: red}
-  25% {background-color: green}
-  50% {background-color: red}
+  25% {background-color: rgb(30, 66, 185)}
+  50% {background-color: rgb(218, 85, 173)}
   75% {background-color:blueviolet;}
 }
